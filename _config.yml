@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: "Aravind G"
+google_analytics: sip-aravind-g
+title: "Aravind G"
+
+defaults:
+  - scope:
+      path: "" # empty string for all files
+    values:
+      title: "My Professional Chronicle !"
+
+description: Stylish Jekyll Theme
+author:
+  name: Aravind
+  email: airmailpod@gmail.com
+  github: sip-aravind-g
+  twitter: Aravind
+  pinterest: Aravind
+  linkedin: Aravind
+  bio: Senior AI & MLOps Cloud Engineer | Security AI Architecture Data and AI Platform | Sr Fullstack Cloud Engineer | NLP Engineer | ML Engineering | AI Enthusiast | Hillwalking !
+  passkey: SuperSecretPassword
+
+rss_path: feed.xml
+categories_path: Categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
